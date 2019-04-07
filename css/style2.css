@@ -1417,7 +1417,7 @@ h1, h2, h3, h4, h5, h6 {
   to { transform: rotate(360deg); }
 }
 .App-logo {
-  animation: App-logo-spin infinite 3s linear;
+  animation: App-logo-spin infinite 5s linear;
   height: 60px;
 }
 
