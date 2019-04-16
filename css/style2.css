@@ -1488,4 +1488,28 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+
+#skill{
+  margin-top: 60px;
+}
+
+#lista1 {
+	font-family:Arial;
+	font-weight:bold;
+	font-size:30px;
+	background-color:black;
+}
+
+
+#lista1 li {
+	display:inline;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+a:hover {
+	color:black;
+}
+
 /*# sourceMappingURL=style2.css.map */
