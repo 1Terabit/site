@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fh5co-header {
     margin-top: 0;
-    background: #fff;
+    background: #00000096 !important;
     -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #329998 !important;
   }
   #fh5co-header #navbar li a {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: #ffffff !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #fff;
+  color: #ffffff;
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
@@ -1103,7 +1103,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #329998;
+  background: #ffffff;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
@@ -1119,16 +1119,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 3px;
   color: #329998;
   font: bold 14px/.4 Helvetica;
+  margin-top: 28px;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #329998;
+  background: #f7f7f7;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #329998;
+  background: #ffffff;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1399,7 +1400,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #Logo{
-  padding-top: 10px;
+  padding-top: 5px;
+  margin-top: 5px;
 }
 
 .foo{
@@ -1412,8 +1414,8 @@ h1, h2, h3, h4, h5, h6 {
   to { transform: rotate(360deg); }
 }
 .App-logo {
-  animation: App-logo-spin infinite 5s linear;
-  height: 60px;
+  filter: invert(50) sepia(50) hue-rotate(50deg) saturate(0%);
+
 }
 
 
@@ -1490,21 +1492,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #skill{
-  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 #lista1 {
 	font-family:Arial;
 	font-weight:bold;
-	font-size:30px;
-	background-color:black;
+	font-size:38px;
+  /* background-color:#080808; */
+  width: 500px !important;
+  height: 101px !important;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left: 10px;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 
 #lista1 li {
 	display:inline;
-	margin-left:10px;
-	margin-right:10px;
+	margin-left:auto;
+  margin-right:auto;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 
