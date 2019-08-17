@@ -1399,7 +1399,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #Logo{
-  padding-top: 10px;
+  padding-top: 5px;
+  margin-top: 5px;
 }
 
 .foo{
@@ -1412,8 +1413,8 @@ h1, h2, h3, h4, h5, h6 {
   to { transform: rotate(360deg); }
 }
 .App-logo {
-  animation: App-logo-spin infinite 5s linear;
-  height: 60px;
+  filter: invert(50) sepia(50) hue-rotate(50deg) saturate(0%);
+
 }
 
 
@@ -1490,21 +1491,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #skill{
-  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 #lista1 {
 	font-family:Arial;
 	font-weight:bold;
-	font-size:30px;
-	background-color:black;
+	font-size:38px;
+  /* background-color:#080808; */
+  width: 500px !important;
+  height: 101px !important;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left: 10px;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 
 #lista1 li {
 	display:inline;
-	margin-left:10px;
-	margin-right:10px;
+	margin-left:auto;
+  margin-right:auto;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 
