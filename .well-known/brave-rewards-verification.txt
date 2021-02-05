@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: anthwam.netlify.app
+Token: f5a8ca8f2efc08643b8ced7f6f64ff732e6457ca1265994d450c647cd175fc5f
